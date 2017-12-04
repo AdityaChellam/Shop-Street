@@ -1,18 +1,17 @@
 {
-  "name": "love",
+  "name": "persistent_sys",
   "version": "1.0.0",
-  "description": "practice",
-  "main": "index.js",
+  "description": "web application development",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "ejs"
-  ],
-  "author": "me",
+  "author": "aditya chellam",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.18.2",
     "ejs": "^2.5.7",
-    "express": "^4.15.5"
+    "express": "^4.16.2",
+    "mongoose": "^4.12.1"
   }
 }
